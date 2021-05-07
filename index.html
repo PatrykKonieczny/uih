@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" media = "screen" />
+    </head>
+    <body>
+        <h1>Welcome to UIH Vaccine Database!</h1>
+
+        <form action="welcome.php" method = "POST">
+            <label for="userType">Which type of user are you:
+            <select  name="selectUsers" >
+                <option value="Admin">Admin</option>
+                <option value="Nurse">Nurse</option>
+                <option value="Patient">Patient</option>
+            </select> <br>
+        </label><br>
+
+
+
+            <label for="username">Username:</label><br>
+            <input type="text" id="user" name="user" ><br>
+            <label for="passowrd"> Password:</label><br>
+            <input type="password" id="pass" name="pass" ><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+        
+    </body>
+</html>
