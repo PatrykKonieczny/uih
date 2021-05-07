@@ -1,8 +1,4 @@
 <html>
-    <Location "/">
-  AllowMethods GET POST OPTIONS
-</Location>
-    
     <body>
 <?php
     if($_POST["user"])
