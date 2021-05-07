@@ -10,15 +10,15 @@
     }
         
     
-    if($choice == "Admin"){
-        header("Location: admin.php");
-    }
-    if($choice == "Nurse"){
-        header("Location: nurseopt/nurse.php");
-    }
-    if($choice == "Patient"){
-        header("Location: patopt/patient.php");
-    }
+//     if($choice == "Admin"){
+//         header("Location: admin.php");
+//     }
+//     if($choice == "Nurse"){
+//         header("Location: nurseopt/nurse.php");
+//     }
+//     if($choice == "Patient"){
+//         header("Location: patopt/patient.php");
+//     }
         
 ?>
 
